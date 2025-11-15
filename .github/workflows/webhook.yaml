@@ -1,0 +1,8 @@
+      - name: Notify Slack - success
+        if: success()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: custom
+          text: "Deploy succeeded for ${{ github.repository }} @ ${{ github.ref }}"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
