@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF3E41;
-    --secondary: #51CFED;
+    --primary: #c5baba;
+    --secondary: #19c713;
     --light: #F8F2F0;
     --dark: #060315;
 }
@@ -84,7 +84,7 @@
     position: relative;
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #29b37e;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -102,7 +102,7 @@
     }
 
     .navbar-light .navbar-nav {
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid #089e62;
     }
 }
 
@@ -129,7 +129,7 @@
         height: 5px;
         top: -6px;
         left: 50%;
-        background: #FFFFFF;
+        background: #a0afc0;
         transition: .5s;
     }
 
@@ -205,9 +205,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #6eb174;
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #081272;
     border-radius: 45px;
     font-size: 22px;
     transition: .5s;
@@ -220,7 +220,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(46, 10, 223, 0.5), rgba(34, 1, 196, 0.5)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -281,7 +281,7 @@
 .service-item,
 .price-item,
 .team-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    box-shadow: 0 0 45px rgba(44, 179, 10, 0.07);
 }
 
 .service-item img,
@@ -315,7 +315,7 @@
     display: inline-flex;
     align-items: center;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #569f8884;
     background: var(--primary);
     border-radius: 0 35px 35px 0;
     transition: .5s;
